@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="更换为BFragment"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_Reset"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="更换文字内容"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="w我是Afragment"
+        />
+</LinearLayout>
